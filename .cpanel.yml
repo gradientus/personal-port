@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/philudhw/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp tailwind.css $DEPLOYPATH
+    - /bin/cp main.js $DEPLOYPATH
     - export DEPLOYPATH=/home/philudhw/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
